@@ -91,4 +91,4 @@ API de Países do IBGE:
 
 ## 👥 Autor
 
-[Émery Freitas Moriconi]
+Émery Freitas Moriconi
