@@ -29,7 +29,7 @@ def criar_tabela():
     conexao = conectar_banco()
     cursor = conexao.cursor()
 
-    cursor.execute("CREATE TABLE paises (id INT AUTO_INCREMENT PRIMARY KEY, codigo VARCHAR(3), nome VARCHAR(100), area VARCHAR(100), regiao VARCHAR(100), sub_regiao VARCHAR(100))")
+    cursor.execute("CREATE TABLE IF NOT EXISTS paises (id INT AUTO_INCREMENT PRIMARY KEY, codigo VARCHAR(3), nome VARCHAR(100), area VARCHAR(100), regiao VARCHAR(100), sub_regiao VARCHAR(100))")
 
     cursor.close()
     conexao.close()

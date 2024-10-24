@@ -1,5 +1,7 @@
 import main
 
+main.criar_tabela()
+
 def menu():
     while True:
         print("Selecione uma opção: ")
